@@ -1,0 +1,26 @@
+name: upwork-leads-gpt
+
+services:
+  connect-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: UpworkLeadsGPT
+    volumes:
+      - .:/code
+    ports:
+      - "9022:9022"
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    environment:
+      TUNNEL_URL: http://connect-service:9022
+    command: "tunnel --no-autoupdate"
+    volumes:
+      - ./cloudflared:/etc/cloudflared
+    depends_on:
+      - connect-service
+
+networks:
+  default:
+    driver: bridge
