@@ -3,7 +3,7 @@
 Connect to Upwork, find the most relevant jobs based on your skills or keywords, and generate tailored proposals using the latest strategies and insights.
 
 **Live Link**
-[Upwork Genie - Live GPT](https://chatgpt.com/g/g-2ti56xXvK-upwork-lead-genie)
+[Upwork Freelance Leads Finder GPT](https://chatgpt.com/g/g-rNroYpDIM-freelance-leads-gpt)
 
 ## Business Value
 
@@ -21,7 +21,7 @@ This GPT system not only saves time by automating the job search process but als
 Important Note: Upwork Genie is designed as a Proof of Concept (POC) and is NOT recommended for production environments due to potential security risks.
 
 **Live Link**
-[Upwork Genie - Live GPT](https://chatgpt.com/g/g-2ti56xXvK-upwork-lead-genie)
+[Upwork Freelance Leads Finder GPT](https://chatgpt.com/g/g-rNroYpDIM-freelance-leads-gpt)
 
 ### Features
 - Smart JobSearch: Automatically finds relevant Upwork job postings based on keywords or your skillset.
