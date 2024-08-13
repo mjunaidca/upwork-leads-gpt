@@ -2,7 +2,6 @@
 
 Connect to Upwork, find the most relevant jobs based on your skills or keywords, and generate tailored proposals using the latest strategies and insights.
 
-
 **Live Link**
 [Upwork Genie - Live GPT](https://chatgpt.com/g/g-2ti56xXvK-upwork-lead-genie)
 
@@ -21,8 +20,6 @@ This GPT system not only saves time by automating the job search process but als
 
 Important Note: Upwork Genie is designed as a Proof of Concept (POC) and is NOT recommended for production environments due to potential security risks.
 
-
-
 **Live Link**
 [Upwork Genie - Live GPT](https://chatgpt.com/g/g-2ti56xXvK-upwork-lead-genie)
 
@@ -39,6 +36,14 @@ Important Note: Upwork Genie is designed as a Proof of Concept (POC) and is NOT 
 - Docker Compose
 
 ### Setup Instructions
+
+0. Get an Upwork RSS Feed URL and extract security_token, user_uid and org_uid . Add them to main.py at line 31 - 35:
+```
+    security_token = "&securityToken="
+    user_uid = "&userUid="
+    org_uid = "&orgUid="
+```
+
 1. Clone the Repository
 ```bash
 git clone [your-repository-url]
